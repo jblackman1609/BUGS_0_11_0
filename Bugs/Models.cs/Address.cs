@@ -1,7 +1,9 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace Bugs.Models
 {
-    
+    [Owned]
     public class Address
     {
         public string Street { get; set; } = string.Empty;
